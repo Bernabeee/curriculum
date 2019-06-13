@@ -8665,4 +8665,90 @@ table {
   border-spacing: 0;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
+
+ul li a {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+ul li a {
+  font-size: 1.2rem;
+}
+
+.nav--position {
+  position: fixed;
+  height: 100vh;
+}
+
+.contenido--colores {
+  background-color: #7cea9c;
+  color: #2d3047;
+}
+
+.contenido--position {
+  padding-left: 25vw;
+}
+
+.contenido__secciones--dimention {
+  padding: 3rem 2rem 3rem 0rem;
+  margin-right: 20%;
+  border-bottom: 1px solid #2d3047;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+.parrafo__header--espacio {
+  margin: 5rem 0rem;
+}
+
+.parrafo--espacio {
+  margin: 3rem 0rem;
+}
+
 /*# sourceMappingURL=main.css.map */
