@@ -8891,5 +8891,34 @@ h4 {
     font-size: 0.8rem;
   }
 }
+@media (max-width: 415px) {
+  .nav__mobile--dimention {
+    width: 40vw;
+  }
+
+  .contenido--position {
+    padding-top: 30%;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
