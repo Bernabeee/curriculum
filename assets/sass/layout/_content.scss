@@ -1,16 +1,14 @@
-.contenido--colores  {
-    background-color: $verde;
-    color: $petroleo;
-}
+
 
 .contenido--position {
     padding-left: 25vw;
+    padding-top: 25vh;
 }
 
 .contenido__secciones--dimention {
-    padding: 3rem 2rem 3rem 0rem;
+    padding: 5rem 2rem 11rem 0rem;
     margin-right: 20%;
-    border-bottom: 1px solid $petroleo;
+    border-bottom: 2px solid $petronegro;
 }
 
 h1 {margin-bottom: 0.5rem;}
@@ -23,3 +21,22 @@ h1 {margin-bottom: 0.5rem;}
     margin: 3rem 0rem;
 }
 
+i { color: $petronegro;}
+
+p,
+h4 {
+    color: $petronegro;
+}
+
+.experiencia--padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.experiencia--margint {
+    margin-top: 8rem;
+}
+
+.educacion--margint {
+    margin-top: 6rem;
+}

@@ -13,88 +13,141 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 nav--position  contenido--colores text-center">
+                <div class="col-md-2 nav--position  contenido--colores text-center" id="menu_escritorio">
                     <img class="img-fluid" src="assets/img/avatar.png"/>
-                    <ul>
+                    <ul class="">
                         <li>
-                            <a href="#presentación">ACERCA DE MI</a> 
+                            <a ref="#presentacion" class="link-menu">ACERCA DE MI</a> 
                         </li>
                         <li>
-                           <a href="#experiencia"> EXPERIENCIA</a>
+                           <a href="#experiencia" class="link-menu" > EXPERIENCIA</a>
                         </li>
                         <li>
-                           <a href="#educación"> EDUCACIÓN</a>
+                           <a href="#educacion" class="link-menu"> EDUCACIÓN</a>
                         </li>
                         <li>
-                           <a href="#habilidades">HABILIDADES</a>
+                           <a href="#habilidades" class="link-menu">HABILIDADES</a>
                         </li>
                         <li>
-                          <a href="#contacto"> CONTACTO</a>
+                          <a href="#contacto" class="link-menu"> CONTACTO</a>
                         </li>
                     </ul>
                 </div>
+                <div class="navbar navbar-light contenido--colores nav__mobile--popsition nav__mobile--dimention" id="menu_mobile">
+                        <img class="img-fluid mb-1" src="assets/img/avatar.png"/>
+                        <button class="boton__menu--dimention navbar-toggler contenido--colores" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                          <a class="link-menu" href="#presentacion">ACERCA DE MI <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="link-menu" href="#experiencia">EXPERIENCIA</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="link-menu" href="#educacion">EDUCACIÓN</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="link-menu" href="#habilidades">HABILIDADES</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="link-menu" href="#contacto">CONTACTO</a>
+                                        </li>
+                                </ul>
+                        </div>
+                      </div>
+
+
                 <div class="col-md-12 contenido--position">
-                    <div id="presentacion" class="contenido__secciones--dimention">
+                    <div id="presentacion" class="col-lg-10 contenido__secciones--dimention">
                         <h1>VANESSA GALLEGUILLOS</h1>
                         <h4>
-                            CALLE SIEMPRE VIVA | +569 751 54 887 | <a href="mailto:vanegalleguillos@gmail.com">vanegalleguillos@gmail.com</a>
+                            CALLE SIEMPRE VIVA | +569 751 54 887 | <a class="mail" href="mailto:vanegalleguillos@gmail.com">vanegalleguillos@gmail.com</a>
                         </h4>
                         <p class="parrafo__header--espacio">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repellendus ex voluptas doloribus similique eligendi 
                             quam eum, aliquam vel numquam odit alias! Illum quaerat fugit obcaecati deserunt eaque voluptate aperiam!
                         </p>
 
-                        <i class="fab fa-github-square fa-3x"></i>
-                        <i class="fab fa-facebook-square fa-3x"></i>
+                        <i class="fab fa-github-square fa-3x mr-3"></i>
+                        <i class="fab fa-facebook-square fa-3x mr-3"></i>
                         <i class="fab fa-twitter-square fa-3x"></i>
 
                     </div>
                     <!--Experiencia-->
-                    <div id="experiencia" class="contenido__secciones--dimention">
+                    <div id="experiencia" class="col-lg-10 contenido__secciones--dimention">
                         <h2>EXPERIENCIA</h2>
-                        <div>
-                            <h4>2017-2018</h4>
-                            <h3>
-                                DESAFIÍO LATAM
+                        <div class="col-md-12 experiencia--padding experiencia--margint">
+                            <div class="col-md-6 experiencia--padding">
+                            <h3 class="mb-3">
+                                DESAFÍO LATAM
                             </h3>
                             <h4>
                                 Front-end Developer
                             </h4>
+                            </div>
+                            <div class="col-md-6 experiencia--padding text-right">
+                            <h4 class="mt-3">
+                                2017-2018
+                            </h4>
+                            </div>
+                            <div class="col-md-12 experiencia--padding">
                             <p class="parrafo--espacio">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a laudantium quos sapiente eius 
                                 corporis? Nostrum, repellat. Dignissimos, quisquam? Odio deleniti nulla eligendi itaque ea placeat 
                                 quaerat esse minima neque!
                             </p>
+                            </div>
                         </div>
-                        <div>
-                                <h4>2015-2017</h4>
-                                <h3>
+
+                        <div class="col-md-12 experiencia--padding mt-5">
+                                <div class="col-md-6 experiencia--padding">
+                                <h3 class="mb-3">
                                     RETAILADD
                                 </h3>
                                 <h4>
                                     UX/UI Designer
                                 </h4>
+                                </div>
+                                <div class="col-md-6 experiencia--padding text-right">
+                                <h4 class="mt-3">
+                                     2015-2017
+                                </h4>
+                                </div>
+                                <div class="col-md-12 experiencia--padding">
                                 <p class="parrafo--espacio">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a laudantium quos sapiente eius 
                                     corporis? Nostrum, repellat. Dignissimos, quisquam? Odio deleniti nulla eligendi itaque ea placeat 
                                     quaerat esse minima neque!
                                 </p>
+                                </div>
                         </div>
 
-                        <div>
-                                <h4>2013-2015</h4>
-                                <h3>
+                        <div class="col-md-12 experiencia--padding mt-5">
+                                <div class="col-md-6 experiencia--padding">
+                                <h3 class="mb-3">
                                     CAFETERÍA HAIPPE
                                 </h3>
                                 <h4>
                                     Barista
                                 </h4>
+                                </div>
+                                <div class="col-md-6 experiencia--padding text-right">
+                                <h4 class="mt-3">
+                                   2013-2015
+                                </h4>
+                                </div>
+                                <div class="col-md-12 experiencia--padding">
                                 <p class="parrafo--espacio">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias a laudantium quos sapiente eius 
                                     corporis? Nostrum, repellat. Dignissimos, quisquam? Odio deleniti nulla eligendi itaque ea placeat 
                                     quaerat esse minima neque!
                                 </p>
+                                </div>
                         </div>
+
 
 
                     </div>
@@ -102,55 +155,68 @@
                     <!--Fin experiencia-->
                     <!--Educacion-->
 
-                    <div id="educacion" class="contenido__secciones--dimention">
+                    <div id="educacion" class="col-lg-10 contenido__secciones--dimention">
                         <h2>EDUACIÓN</h2>
-                        <div>
-                            <h4>2017</h4>
-                            <h3>
+                    <div class="col-md-12 experiencia--padding experiencia--margint">
+                        <div class="col-md-6 experiencia--padding">
+                            <h3 class="mb-3">
                                 DESAFÍO LATAM
                             </h3>
                             <h4>
                                 Front-end
                             </h4>
                         </div>
+                        <div class="col-md-6 experiencia--padding text-right">
+                            <h4 class="mt-3">2017</h4>
+                        </div>
+                    </div>
 
-                        <div>
-                                <h4>2015-2016</h4>
-                                <h3>
-                                    UX/UI ONLINE UNIVERSITY
+                    <div class="col-md-12 experiencia--padding educacion--margint">
+                            <div class="col-md-6 experiencia--padding ">
+                                <h3 class="mb-3">
+                                   UX/UI ONLINE UNIVERSITY
                                 </h3>
                                 <h4>
-                                    UX/UI
+                                        UX/UI
                                 </h4>
-                        </div>
+                            </div>
+                            <div class="col-md-6 experiencia--padding text-right">
+                                <h4 class="mt-3">2015-2016</h4>
+                            </div>
+                    </div>
 
-                        <div>
-                                <h4>2010-2015</h4>
-                                <h3>
-                                    UDDLA
+                    <div class="col-md-12 experiencia--padding educacion--margint">
+                            <div class="col-md-6 experiencia--padding">
+                                <h3 class="mb-3">
+                                   UDDLA
                                 </h3>
                                 <h4>
-                                    Diseñador Gráfico
+                                   Diseñador Gráfico
                                 </h4>
-                        </div>
+                            </div>
+                            <div class="col-md-6 experiencia--padding text-right">
+                                <h4 class="mt-3">2010-2015</h4>
+                            </div>
+                    </div>
 
                     </div>
 
                     <!--Fin educacion-->
                     <!--Habilidades-->
 
-                    <div id="habilidades" class="contenido__secciones--dimention">
+                    <div id="habilidades" class="contenido__secciones--dimention col-lg-10 experiencia--padding">
                         
+
                         <h2>HABILIDADES</h2>
-                        <div>
-                            <h3>
+                        <div class="col-md-12 experiencia--margint experiencia--padding">
+                            <h3 class="mb-5">
                                 LENGUAJES DE PROGRAMACIÓN
                             </h3>
                             <h4>Javascript, PHP</h4>
                         </div>
 
-                        <div>
-                                <h3>
+                        <div class="col-md-12 educacion--margint experiencia--padding">
+                                <h3 class="mb-5">
                                     HERRAMIENTAS
                                 </h3>
                                 <h4>Wordpress, Jquery, Bootstrap, Photoshop, Scketch, Illustrator</h4>
@@ -162,29 +228,35 @@
 
                     <!--Contacto-->
 
-                    <div id="Contacto" class="contenido__secciones--dimention">
+                    <div id="contacto" class="contenido__secciones--dimention col-lg-10 experiencia--padding">
 
+                        
                         <h2>CONTACTO</h2>
+
+                        <div class="col-md-12 experiencia--padding ">
                         <p class="parrafo--espacio">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ratione 
                             recusandae autem. Dicta doloribus perferendis exercitationem neque aperiam labore, 
                             quo porro incidunt velit eum delectus nemo alias quod obcaecati quisquam.
                         </p>
+                    </div>
 
+                    <div class="col-md-12 experiencia--padding">
                         <form>
                                 <div class="form-group">
-                                  <label for="nombre">Nombre</label>
-                                  <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                                  <label for="nombre" class="mb-5">Nombre</label>
+                                  <input type="text" class="form-control mb-5" id="nombre" placeholder="Escribe tu nombre">
                                 </div>
                                 <div class="form-group">
-                                    <label for="correo">Correo electrónico</label>
-                                    <input type="email" class="form-control" id="correo" placeholder="Escribe tu correo electrónico">
+                                    <label for="correo" class="mb-5">Correo electrónico</label>
+                                    <input type="email" class="form-control mb-5" id="correo" placeholder="Escribe tu correo electrónico">
                                 </div>
                                 <div class="form-group">
-                                  <label for="Mensaje">Mensaje</label>
-                                  <textarea class="form-control" id="Mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                                  <label for="Mensaje" class="mb-5">Mensaje</label>
+                                  <textarea class="form-control mb-5" id="Mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
                                 </div>
                               </form>
+                    </div>
                     </div>
 
                 </div>
@@ -196,8 +268,8 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

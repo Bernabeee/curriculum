@@ -1,4 +1,38 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+.contenido--colores  {
+    background-color: $verde;
+    color: $petroleo;
+}
 .nav--position {
     position: fixed;
     height: 100vh;
+    padding-top: 20vh;
+    z-index: 7;
 }
+
+.link-menu { 
+    color: $petroleo;
+    &:hover {
+        color: $petronegro;
+    }
+}
+
+li {
+    padding: 0.5rem 0.2rem;
+}
+
+.nav__mobile--popsition {
+    position: fixed;
+    z-index: 8;
+}
+
+.nav__mobile--dimention {
+    width: 20vw;
+    -webkit-box-shadow: 2px 2px 16px -6px rgba(0,0,0,0.61);
+-moz-box-shadow: 2px 2px 16px -6px rgba(0,0,0,0.61);
+box-shadow: 2px 2px 16px -6px rgba(0,0,0,0.61);
+}
+

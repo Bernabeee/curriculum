@@ -1,0 +1,18 @@
+
+label { 
+    font-family: $lato;
+    font-size: $medium;
+    font-weight: $regular;
+    color: $petroleo;
+}
+
+/* Placeholders en distintos navegadores */
+::-webkit-input-placeholder { font-family: $lato; }
+::-moz-placeholder { font-family: $lato; } /* firefox 19+ */
+:-ms-input-placeholder { font-family: $lato; } /* ie */
+input:-moz-placeholder { font-family: $lato;font-family: $lato; }
+
+
+textarea.form-control {
+    height: 10rem;
+}

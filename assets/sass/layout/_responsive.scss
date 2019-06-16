@@ -1,0 +1,26 @@
+
+@media (min-width: 769px){
+    #menu_mobile {display: none;}
+}
+
+@media (max-width: 768px) {
+    #menu_escritorio { display: none;}
+    .contenido--position {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 14%;
+    }
+
+    ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .nav__mobile--dimention {
+        width: 40vw;
+    }
+
+
+}

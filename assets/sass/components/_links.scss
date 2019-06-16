@@ -1,0 +1,11 @@
+a:link
+{
+text-decoration :none;
+} 
+
+.mail { 
+    color: $petroleo;
+    &:hover {
+        color: $petronegro;
+    }
+}
